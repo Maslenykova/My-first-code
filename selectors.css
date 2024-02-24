@@ -1,7 +1,7 @@
-img[alt="Polution"]{
+img[alt="Pollution"]{
     border : 5px dashed red:
 }
-[img*=".jpg"]{
+[img$=".jpg"]{
     margin-left: 50px;
 }
 li[data-description~="even"]{
@@ -10,7 +10,7 @@ li[data-description~="even"]{
 li[data-description*="even"]{
     font-size: 24px;
 }
-a[href^="https://"]{
+a[href|="https://"]{
     color:green;
 }
 span[lang~=en]{
