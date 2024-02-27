@@ -1,15 +1,15 @@
-section.already-learned ol h3{
+section.already-learned ol li{
     background-color: green;
     color: white;
 }
-section.to-be-learned ol h3{
+section.to-be-learned ol li{
     background-color: orange;
     color: green;
 }
-section.already-learned li code{
+section.already-learned code{
     background-color: orange;
 }
-section.already-learned li code{
+section.already-learned code{
     background-color: green;
 }
 #special1 li h4 code{
