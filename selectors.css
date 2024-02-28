@@ -12,10 +12,10 @@ background-color: black;
 a:active{
     font-size: 24px;
 }
-.some-button:disabled:hover{
+.some-button:disabled{
     border: 2px dashed grey;
 }
-.some-button:enabled:focus{
+.some-button:enabled:hover{
 color: white;
 background-color: grey;
 }
