@@ -22,6 +22,9 @@ input{
 #special{
     border: 2px solid blue;
 }
+div p{
+    font-size: 25px;
+}
 input[text]{
     background-color: grey;
 }
