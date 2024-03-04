@@ -7,15 +7,15 @@
 .rectangle1{
    margin: 50px;
    padding: 50px;
-   width: 90%;
-   height: 250px;
+   width: 900px;
+   height: 300px;
    background-color: blue;
    display: flex;
    align-items: center;
   
 }
 .rectangle2{
-    width: 100%;
+    width: 700px;
     height: 200px;
     background-color: yellow;
     margin:50px;
@@ -25,7 +25,7 @@
 
  }
  .rectangle3{
-    width: 100%;
+    width: 600px;
     height: 150px;
     margin: 50px;
     padding: 50px;
@@ -35,11 +35,11 @@
 
  }
  .rectangle4{
-    width: 100%;
+    width: 400px;
     height: 100px;
     background-color: pink;
     padding: 50px;
-    margin: 50;
+    margin: 0px;
     display: flex;
    align-items: center;
    
