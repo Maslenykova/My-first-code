@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 .rectangle1{
    border-radius: 16px;
    background-color:forestgreen;
@@ -22,12 +25,10 @@
  }
  .rectangle4{
     margin: 50px;
-    width: 0px;
-    height: 0px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 50px solid brown;
-
+    width: 100px;
+    height: 100px;
+    border: 50px solid transparent;
+    border-top-color: brown;
  }
 
     
