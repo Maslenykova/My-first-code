@@ -1,50 +1,31 @@
 .size{
-   box-sizing: border-box;
-    border: 2px solid black;
-    
-}
-
-.rectangle1{
-   margin: 50px;
-   padding: 50px;
-   width: 900px;
-   height: 300px;
-   background-color: blue;
-   display: flex;
-   align-items: center;
-  
-}
-.rectangle2{
-    width: 700px;
-    height: 200px;
-    background-color: yellow;
-    margin:50px;
-    padding: 50px; 
-    display: flex;
-   align-items: center;
-
+     
+     border: 2px solid black;
+     
  }
- .rectangle3{
-    width: 600px;
-    height: 150px;
+ 
+ .rectangle1{
     margin: 50px;
     padding: 50px;
-    background-color: green;
-    display: flex;
-   align-items: center;
-
- }
- .rectangle4{
-    width: 400px;
-    height: 100px;
-    background-color: pink;
-    padding: 50px;
-    margin: 0px;
-    display: flex;
-   align-items: center;
-   
- }
-
-
-
+    background-color: blue;
     
+ }
+ .rectangle2{
+    padding: 50px;
+     background-color: yellow;
+    
+  }
+  .rectangle3{
+     padding: 50px;
+     background-color: green;
+   
+  }
+  .rectangle4{
+     padding: 50px;
+     background-color: pink;
+     
+  }
+ 
+ 
+ 
+     
