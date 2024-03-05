@@ -1,31 +1,18 @@
-.size{
-     
-     border: 2px solid black;
-     
- }
- 
- .rectangle1{
-    margin: 50px;
-    padding: 50px;
-    background-color: blue;
-    
- }
- .rectangle2{
-    padding: 50px;
-     background-color: yellow;
-    
-  }
-  .rectangle3{
-     padding: 50px;
-     background-color: green;
-   
-  }
-  .rectangle4{
-     padding: 50px;
-     background-color: pink;
-     
-  }
- 
- 
- 
-     
+.static-parent{
+    position: static;
+}
+.relative-parent{
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+}
+.absolute-parent{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.fixed-parent{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
