@@ -7,22 +7,21 @@
   background-color: aquamarine;
   padding: 10px;
 }
-.red{
-  background-color: red;
+.square{
   width: 100px;
   height: 100px;
-  float: right;
-  
+}
+.red{
+  background-color: red;
+  float: right; 
 }
 .green{
   background-color: green;
-  width: 100px;
-  height: 100px;
   float: left;
   
 }
 .footer{
-  border: 3px solid black;
+  border: 2px solid black;
   height: 30px;
   clear: both;
 }
