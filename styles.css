@@ -5,12 +5,13 @@
   float: left;
   width: 50%;
   background-color: aquamarine;
+  padding: 10px;
   
 }
 .square{
   width: 100px;
   height: 100px;
-  margin: 10px;
+  padding: 10px;
 }
 .red{
   background-color: red;
