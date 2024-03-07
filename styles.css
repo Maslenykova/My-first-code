@@ -12,6 +12,7 @@
 }
 .nav-list{
   height: 40px;
+  list-style-type: none;
 }
 .nav-item{
   float: left;
