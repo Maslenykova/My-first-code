@@ -1,26 +1,73 @@
 *{
   box-sizing: border-box;
 }
+
 .header{
-  height: 50px;
-  background-color: yellow;
+  background-color: darkturquoise;
+  height: 40px;
 }
-.footer{
-  height: 50px;
-  background-color: green;
-  clear: both;
+.navigation{
+  line-height: 40px;
+}
+.nav-item{
+  float: left;
+  margin-left: 16px;
+  color: white;
 }
 .content{
-  width: 80%;
-  height: 500px;
-  background-color: pink;
-  float: left;
+  background-color: beige;
+  height: 5000px;
 }
-.sidebar{
-  width: 20%;
-  height: 500px;
-  background-color: grey;
+.head{
+  background-color: aquamarine;
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  display: block;
+  top: 50%;
+  left: 50%;
+  clear:both
+ 
+}
+.ear {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  
+}
+.ear_right{
+  float: right;
+  position: relative;
+  bottom: 60px;
+  left: 40px;
+  
+}
+.ear_left{
   float: left;
+  clear: left;
+  position: relative;
+  bottom: 60px;
+  right: 40px;
+}
+div.eye{
+ 
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: gray;
+
+}
+.eye_right{
+  position: relative;
+  top: 80px;
+  left: 40px;
+ 
+} 
+.eye_left{
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  
 }
 
 
