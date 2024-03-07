@@ -2,12 +2,12 @@
 .header{
   background-color: darkturquoise;
   position: fixed;
+  z-index: 2;
   width: 100%;
   height: 40px;
 }
-
-nav.navigation{
-  height: 40px;
+.navigation{
+  line-height: 40%;
   
 }
 .nav-list{
