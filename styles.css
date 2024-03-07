@@ -1,12 +1,8 @@
-*{
-  box-sizing: border-box;
-}
 
 .header{
   background-color: darkturquoise;
   position: fixed;
   width: 100%;
-  z-index: 2;
   height: 40px;
 }
 
