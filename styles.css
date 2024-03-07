@@ -1,13 +1,17 @@
-*{
+/*{
   box-sizing: border-box;
-}
+}*/
 
 .header{
+  position: relative;
   background-color: darkturquoise;
   height: 40px;
 }
 .navigation{
   line-height: 40px;
+}
+.nav-list{
+  height: 40px;
 }
 .nav-item{
   float: left;
@@ -19,14 +23,15 @@
   height: 5000px;
 }
 .head{
+
   background-color: aquamarine;
   position: fixed;
   height: 200px;
   width: 200px;
   display: block;
-  top: 50%;
-  left: 50%;
-  clear:both
+  clear:both;
+  left:calc(45%);
+  top: calc(45%);
  
 }
 .ear {
