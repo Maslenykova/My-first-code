@@ -1,29 +1,32 @@
-* {
+*{
   box-sizing: border-box;
 }
+
 .container{
   float: left;
   width: 50%;
   background-color: aquamarine;
-  padding: 10px;
-  
+  padding: 16px;
 }
+
 .square{
   width: 100px;
   height: 100px;
-  padding: 10px;
 }
+
 .red{
   background-color: red;
   float: right; 
 }
+
 .green{
   background-color: green;
   float: left;
-  
 }
+
 .footer{
-  border: 2px solid black;
   height: 30px;
+  border: 2px solid black;
   clear: both;
+  
 }
