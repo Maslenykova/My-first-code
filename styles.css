@@ -37,12 +37,12 @@
   width: 200px;
   flex-direction: column;
   
-
 }
 .news{
  display: flex;
 justify-content: center;
- align-items: center;
+align-items: center;
+margin-top: 16px;
   
 }
 .news_list{
@@ -58,7 +58,7 @@ justify-content: center;
   display: flex;
   margin-top: 16px;
   margin-left: 16px;
- 
+
 }
 
 .footer{
