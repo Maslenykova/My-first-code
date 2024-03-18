@@ -13,8 +13,6 @@ header{
   
 }
 .article{
-  flex-direction: row;
-  align-items: center;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
