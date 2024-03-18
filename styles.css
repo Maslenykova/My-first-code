@@ -8,7 +8,8 @@ header{
   display: flex;
   flex-wrap:wrap;
   margin: 0;
- 
+  padding: 0;
+  width: auto;
   
 }
 .article{
@@ -20,5 +21,6 @@ header{
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis:300px;
+ 
   
 }
