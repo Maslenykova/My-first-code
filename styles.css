@@ -1,21 +1,37 @@
-
-.container div:nth-child(1){
+*{
+  box-sizing: border-box;
+}
+.articles{
+  display: flex;
+}
+.visible-text{
+  width: 150px;
   height: 100px;
-  width: 100px;
-  background-color: coral;
-  display: none;
+  background-color: beige;
+  margin: 16px;
 }
 
- div:nth-child(2){
+.cropped{
+  width: 150px;
   height: 100px;
-  width: 100px;
-  background-color: coral;
-  visibility: hidden;
+  background-color: beige;
+  margin: 16px;
+  overflow: hidden;
+}
+.both-scrolls{
+  width: 150px;
+  height: 100px;
+  background-color: beige;
+  margin: 16px;
+  overflow: scroll;
+  cursor: all-scroll;
+}
+.vertical-scroll{
+  width: 150px;
+  height: 100px;
+  background-color: beige;
+  margin: 16px;
+  overflow-y:scroll;
+  cursor: all-scroll;
 }
 
- div:nth-child(3){
-  height: 100px;
-  width: 100px;
-  background-color: coral;
-  visibility: visible;
-}
