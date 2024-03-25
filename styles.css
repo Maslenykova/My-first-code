@@ -1,14 +1,12 @@
 *{
   box-sizing: border-box;
 }
-body{
+
+.dropdown{
   margin: 16px;
 }
-.dropdown{
-  position: relative;
-}
 .menu-button{
-  
+  position: relative;
   display: inline-block;
   padding: 16px;
   background-color: darkgreen;
