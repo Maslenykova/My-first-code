@@ -11,14 +11,13 @@
   background-color: darkgreen;
   opacity: 0.8;
   color: white;
-  
+  font-size: 16px;
 }
 .menu-list{
   display: none;
   margin:0;
   padding: 0;
   position: absolute;
- 
 }
 .menu-item{
   background-color: lightcyan;
@@ -29,10 +28,8 @@
   z-index: 1;
   list-style-type: none; 
 }
-.dropdown:hover{
-  font-size: 16px;
+.menu-button:hover{
   opacity: 1;
-  
   cursor: pointer;
 }
 .menu-item:hover{
