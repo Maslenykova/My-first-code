@@ -4,13 +4,13 @@
 .dropdown{
   position: relative;
   margin: 16px;
-  
 }
 .menu-button{
   display: inline-block;
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
+  color: white;
   
 }
 .menu-list{
@@ -32,7 +32,7 @@
 .dropdown:hover{
   font-size: 16px;
   opacity: 1;
-  color: white;
+  
   cursor: pointer;
 }
 .menu-item:hover{
