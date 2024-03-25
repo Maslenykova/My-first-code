@@ -1,10 +1,11 @@
 *{
   box-sizing: border-box;
 }
-.dropdown{
-  height: 50px;
-  position: relative;
+body{
   margin: 16px;
+}
+.dropdown{
+  position: relative;
 }
 .menu-button{
   
