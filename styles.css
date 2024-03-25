@@ -14,13 +14,14 @@
   color: white;
   font-size: 16px;
   cursor: pointer;
-  height: 50px;
+  
 }
 .menu-list{
-  display: none;
+  position: absolute;
   margin:0;
   padding: 0;
-  position: absolute;
+  display: none;
+  
 }
 .menu-item{
   background-color: lightcyan;
