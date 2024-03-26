@@ -1,9 +1,10 @@
-*{
+{
   box-sizing: border-box;
 }
 
 .dropdown{
   margin: 16px;
+  top: 16px;
   position: relative;
   display: inline-block;
 }
@@ -17,7 +18,8 @@
   
 }
 .menu-list{
-  position: absolute;
+  position: relative;
+  top: 16px;
   margin:0;
   padding: 0;
   display: none;
