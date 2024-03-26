@@ -4,11 +4,10 @@
 
 .dropdown{
   margin: 16px;
-  
-}
-.menu-button{
   position: relative;
   display: inline-block;
+}
+.menu-button{
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
