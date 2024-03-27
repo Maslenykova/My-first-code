@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body{
+  margin: 16px;
+}
 
 .dropdown{
   position: relative;
