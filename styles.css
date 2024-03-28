@@ -6,7 +6,7 @@
   position: relative;
   display: inline-block;
   margin: 16px;
-  height: 34px;
+  height: 35px;
 }
 .menu-button{
   display: block;
@@ -20,7 +20,7 @@
 }
 .menu-list{
   position: absolute;
-  top: 34px;
+  top: 35px;
   display: none;
   margin: o;
   padding: 0;
