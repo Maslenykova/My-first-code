@@ -6,7 +6,7 @@
   position: relative;
   display: inline-block;
   margin: 16px;
-  height: 35px;
+  
 }
 .menu-button{
   display: block;
@@ -19,8 +19,8 @@
   cursor: pointer;
 }
 .menu-list{
+  font-size: 0;
   position: absolute;
-  top: 35px;
   display: none;
   margin: o;
   padding: 0;
@@ -32,6 +32,7 @@
 }
 
 .menu-item{
+  font-size: 16px;
   padding: 16px;
   list-style-type: none;
 }
