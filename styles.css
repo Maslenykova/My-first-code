@@ -8,10 +8,11 @@
   padding: 0;
   border-bottom: 1px dotted black;
   bottom: -40px;
+  width:100px;
+white-space:nowrap;
+overflow:hidden
 }
-.tooltip{
-  display: none;
-}
+
 .text:hover .tooltip{
   display: block;
   position: absolute;
