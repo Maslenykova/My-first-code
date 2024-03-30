@@ -10,7 +10,7 @@
   bottom: -40px;
 }
 .tooltip{
-  display: none;
+  font-size: 0;
 }
 .text:hover .tooltip{
   display: block;
@@ -20,5 +20,6 @@
   border-radius: 4px;
   padding: 8px;  
   margin-top: 5px;
+  font-size: 16px;
 }
 
