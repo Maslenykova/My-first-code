@@ -8,14 +8,14 @@
   padding: 0;
   border-bottom: 1px dotted black;
   bottom: -40px; 
-  text-overflow: clip;
-}
-.tooltip{
-  font-size: 0;
+  width:100px;
+  white-space:nowrap;
+  overflow:hidden
 }
 
+
 .text:hover .tooltip{
-  font-size: initial;
+  width:100px;
   display: block;
   position: absolute;
   background-color: gray;
