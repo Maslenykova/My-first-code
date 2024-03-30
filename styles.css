@@ -8,12 +8,14 @@
   padding: 0;
   border-bottom: 1px dotted black;
   bottom: -40px; 
+  text-overflow: clip;
 }
-span{
- display: none;
+.tooltip{
+  font-size: 0;
 }
 
 .text:hover .tooltip{
+  font-size: initial;
   display: block;
   position: absolute;
   background-color: gray;
