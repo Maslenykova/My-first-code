@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-div.text{
+div{
   display: inline-block;
   position: static;
   margin: 16px;
@@ -9,15 +9,13 @@ div.text{
   border-bottom: 1px dotted black;
   bottom: -40px;
 }
-span.tooltip{
-  display: none;
+
+div:hover .tooltip{
+  display: block;
+  position: relative;
   background-color: gray;
   color: white;
   border-radius: 4px;
-  padding: 8px;
-  
+  padding: 8px;  
 }
-.text:hover .tooltip{
-  display: block;
-  position: relative;
-}
+
