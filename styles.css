@@ -1,13 +1,17 @@
 *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .gallery{
   display: flex;
-  flex-wrap: nowrap;
-  flex-shrink: 1;
-  cursor: all-scroll;        
+  position: relative;
+  cursor: all-scroll;  
+ 
 }
 .thumb{
- margin: 8px;
- overflow-x: auto;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  margin: 8px;
+  overflow-x: auto;
 }
