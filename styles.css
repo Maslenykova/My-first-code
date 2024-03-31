@@ -7,11 +7,12 @@
   display: flex;
   position: relative;
   cursor: all-scroll;  
- 
-}
-.thumb{
+  overflow-x: auto;
   flex-wrap: nowrap;
   flex-shrink: 0;
+}
+.thumb{
+  
   margin: 8px;
-  overflow-x: auto;
+  
 }
