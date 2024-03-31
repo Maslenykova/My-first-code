@@ -1,28 +1,26 @@
-*{
-  box-sizing: border-box;
+html{
+  margin: 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
-.text{
-  display: inline-block;
-  position: relative;
-  margin: 16px;
-  padding: 0;
-  border-bottom: 1px dotted black;
-  /*bottom: -40px; */
+h1{
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
-
-/*.tooltip{
-  display: none;
-}*/
-.tooltip{
-  display: block;
-  position: absolute;
-  background-color: gray;
-  color: white;
-  border-radius: 4px;
-  padding: 8px;  
-  top: 24px;
-  z-index: 1;
+p{
+  line-height: 28px;
 }
-.text:hover .tooltip{
-  display: block;
+.first{
+  font-weight: 900;
+  word-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+em{
+  color: gray;
 }
