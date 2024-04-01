@@ -4,6 +4,7 @@ html{
 }
 section{
   margin: 32px;
+  text-align: left;
 }
 h1{
   word-spacing: 20px;
