@@ -1,6 +1,7 @@
 html{
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  text-align:center;
 }
 section{
   margin: 32px;
@@ -12,7 +13,7 @@ h1{
 }
 p{
   line-height: 28px;
-  text-align: left;
+  
 }
 .first{
   font-weight: 900;
