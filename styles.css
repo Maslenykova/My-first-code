@@ -1,31 +1,19 @@
 html{
-  font-family: Roboto, sans-serif;
-  font-size: 18px;
-  margin: 0;
-}
-section{
-  margin: 32px;
-  padding: 0;
+  font-family: Verdana;
 }
 h1{
-  word-spacing: 20px;
+  font-size: 74px;
   text-align: center;
-  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 50%;
 }
-p{
-  line-height: 28px;
-  
-}
-.first{
-  font-weight: 900;
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 80%;
-  text-decoration: underline;
-}
-a{
-  text-decoration: none;
-}
-em{
-  color: gray;
+div{
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 200px;
 }
