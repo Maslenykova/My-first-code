@@ -1,11 +1,9 @@
-body{
-  margin: 0;
+html{
+  font-family: Roboto, sans-serif;
 }
 section{
   margin: 32px;
-  font-family: Roboto, sans-serif;
   font-size: 18px;
-  
 }
 h1{
   word-spacing: 20px;
