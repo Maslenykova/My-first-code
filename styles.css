@@ -1,7 +1,11 @@
+body{
+  margin: 0;
+}
 section{
   margin: 32px;
   font-family: Roboto, sans-serif;
   font-size: 18px;
+  
 }
 h1{
   word-spacing: 20px;
@@ -10,6 +14,7 @@ h1{
 }
 p{
   line-height: 28px;
+  
 }
 .first{
   font-weight: 900;
