@@ -1,15 +1,29 @@
-.list{
-  list-style-type: none;
+html{
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
-li{
-  font-size: 1.5em;
+section{
+  margin: 32px;
 }
-.third{
-  text-decoration: green underline;
+h1{
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
-.second{
-  text-decoration: line-through;
+p{
+  line-height: 28px;
+  text-align: left;
 }
 .first{
-  text-decoration: red overline;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+em{
+  color: gray;
 }
