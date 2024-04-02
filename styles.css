@@ -1,5 +1,5 @@
 html{
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h1{
   font-size: 74px;
@@ -7,7 +7,7 @@ h1{
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  width: 50%;
+   width: 50%;
 }
 div{
   height: 200px;
