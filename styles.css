@@ -1,19 +1,15 @@
-html{
-  font-family: Verdana;
+.list{
+  list-style-type: none;
 }
-h1{
-  font-size: 74px;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-   width: 50%;
+li{
+  font-size: 1.5em;
 }
-div{
-  height: 200px;
-  background-color: coral;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 200px;
+.third{
+  text-decoration: green underline;
+}
+.second{
+  text-decoration: line-through;
+}
+.first{
+  text-decoration: red overline;
 }
