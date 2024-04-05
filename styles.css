@@ -1,14 +1,13 @@
 *{
   box-sizing: border-box;
 }
-.gallery{
+div{
   margin: 0;
   padding: 0;
 }
 .image{
   display: inline-block;
   margin: 16px;
-  padding: 0;
   height: 200px;
   width: 200px;
   border: 1px dotted grey;
