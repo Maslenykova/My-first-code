@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
 }
-.gallery{
+.galary{
   margin: 0;
+  padding: 0;
 }
 .image{
   display: inline-block;
