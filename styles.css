@@ -1,13 +1,13 @@
 *{
   box-sizing: border-box;
 }
-.galary{
-  margin: 0;
-  padding: 0;
+.gallery{
+ display: flex;
+ 
 }
 
 .image{
-  display: inline-block;
+  flex-wrap: nowrap;
   margin: 16px; 
   padding: 0;
   height: 200px;
