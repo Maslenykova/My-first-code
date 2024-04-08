@@ -10,63 +10,18 @@
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
     <style>
-        *{
-            box-sizing: border-box;
-        }   
-       
-        .foto{  
-            display: block;  
-            margin: 50px auto;
-            max-width: 100%;
-            border-radius: 20px;
-        }
-        .gallery{
-            display: flex;
-            
-        }
-        .card{
-            margin: 16px;
-            box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
-        }
-        .opacity{
-            filter: opacity(50%);
-        }
-        .blur{
-            filter: blur(4px);
-        }
-        .invert{
-            filter: invert(100%);
-        }
-       .caption{
-            line-height: 30px;
-            text-align: center;
-            text-transform: lowercase;
-        }
-       
-
+     .video{
+        width: 500px;
+        display: block;
+        margin: 200px auto;
+     }
     </style>
 </head>
 <body>
-    <div class="image-container"><img class="foto" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Field with tree">
-    </div>
-    <div class="gallery">
-        <figure class="card">
-            <img class="opacity" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Forest">
-            <figcaption class="caption">
-                Opacity
-            </figcaption>
-        </figure>
-        <figure class="card">
-            <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Forest">
-            <figcaption class="caption">
-                Blur
-            </figcaption>
-        </figure>
-        <figure class="card">
-            <img class="invert" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Forest">
-            <figcaption class="caption">
-                Invert</figcaption>
-            </figure>
-    </div>
+    <video class="video" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/example.mp4"
+    controls poster="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/poster.jpg"
+    >
+
+    </video>
 </body>
 </html>
