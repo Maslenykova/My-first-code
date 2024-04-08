@@ -1,42 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Специфичность</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
     <style>
-      .rectangle {
-        background-color: aqua;
-        width: 100px;
-        height: 100px;
-      }
+        *{
+            box-sizing: border-box;
+        }   
+       
+        .foto{  
+            display: block;  
+            margin: 50px auto 0;
+            max-width: 100%;
+            border-radius: 20px;
+        }
+        .gallery{
+            display: flex;
+        }
+        .card{
+            margin: 16px;
+            box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+        }
+        .opacity{
+            filter: opacity(50%);
+        }
+        .blur{
+            filter: blur(4px);
+        }
+        .invert{
+            filter: invert(100%);
+        }
+       .caption{
+            line-height: 30px;
+            text-align: center;
+            text-transform: lowercase;
+        }
+       
 
-      .text {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      .text::first-letter {
-        color: red;
-      }
-
-      .new {
-        color: grey;
-      }
     </style>
-  </head>
-
-  <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-      Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида
-      документа, написанного с использованием языка разметки.
-    </p>
-  </body>
+</head>
+<body>
+    <div class="image-container"><img class="foto" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Field with tree">
+    </div>
+    <div class="gallery">
+        <figure class="card">
+            <img class="opacity" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Forest">
+            <figcaption class="caption">
+                Opacity
+            </figcaption>
+        </figure>
+        <figure class="card">
+            <img class="blur" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Forest">
+            <figcaption class="caption">
+                Blur
+            </figcaption>
+        </figure>
+        <figure class="card">
+            <img class="invert" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Forest">
+            <figcaption class="caption">
+                Invert</figcaption>
+            </figure>
+    </div>
+</body>
 </html>
