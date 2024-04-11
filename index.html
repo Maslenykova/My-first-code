@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Images</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<style>
+ .conteyner{
+    margin: 16px;
+ }
+ .choose-gender{
+    display: flex;
+    flex-direction: column;
+ }
 
-  <body>
-    <div class="image-container">
-      <img
-        class="image"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-        alt="Forest"
-      />
-      <span class="image-button">Later I'll do something</span>
+</style>
+<body>
+    <form >
+        <div class="conteyner">
+         <input type="text" name="lastName" value="Emerson">
+        </div>
+        <div class="conteyner">
+            <input type="number" name="age" value="17">
+        </div>
+        <div class="conteyner">
+            <label>
+            <input type="checkbox" name="agree" value="Emerson">
+            Accept terms and conditions</label>
+        </div>
+        <div class="conteyner choose-gender">
+            <label>
+            <input type="radio" name="gender">
+            Male</label>
+            <label>
+            <input type="radio" name="gender">
+            Female</label>
+            <label>
+            <input type="radio" name="gender">
+            Secret</label>
+        </div>
+        <div class="conteyner">
+            <textarea name="discription" placeholder="Write description..."></textarea>
+        </div>
+        <div class="conteyner">
+        <button type="submit">Submit</button>
     </div>
-  </body>
+    </form>
+    
+</body>
 </html>
