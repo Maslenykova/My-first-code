@@ -14,35 +14,36 @@
  .conteyner{
     margin: 16px;
  }
-
-
 </style>
 <body>
     <form >
         <div class="conteyner">
-         <input type="text" name="lastName" value="Emerson">
+         <input type="text" name="lastName" value="Emerson" readonly>
         </div>
         <div class="conteyner">
-            <input type="number" name="age" value="17">
+          ,<label >
+            <input type="number" min="3" max="10" name="age" value="17">
+            Age
+          </label>
         </div>
         <div class="conteyner">
             <label>
-            <input type="checkbox" name="agree" value="Emerson">
+            <input type="checkbox" name="agree" value="Emerson" disabled>
             Accept terms and conditions</label>
         </div>
         <div class="conteyner choose-gender">
             <label>
-            <input type="radio" name="gender" checked>
+            <input type="radio" name="gender" >
             Male</label>
             <label>
             <input type="radio" name="gender">
             Female</label>
             <label>
-            <input type="radio" name="gender">
+            <input type="radio" name="gender" checked>
             Secret</label>
         </div>
         <div class="conteyner">
-          <textarea name="description" placeholder="Write description..."></textarea>
+          <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
         </div>
         <div class="conteyner">
         <button type="submit">Submit</button>
