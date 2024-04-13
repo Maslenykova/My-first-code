@@ -13,8 +13,10 @@
     *{
       box-sizing: border-box;
     }
-    form{
-      
+
+    .bigForm{
+      display: flex;
+      flex-direction: column;
       margin: 32px;
     }
     input{
@@ -26,7 +28,7 @@
   </head>
 
   <body>
-    <form >
+    <form class="bigForm">
     <div>
    <input type="text" name="primaryLanguage" value="HTML" disabled>
     </div>
@@ -34,19 +36,19 @@
       <input type="checkbox" name="agree" unchecked>
     </div>
     <div>
-      <input type="checkbox" name="like" checked readonly>
+      <input type="checkbox" name="like" checked>
     </div>
     <div>
       <input type="color" name="favouriteColor" value="#ff7f50" >
     </div>
     <div>
-      <input type="date" name="birthDate" value="2021-01-02" readonly>
+      <input type="date" name="birthDate" value="2021-01-02" >
     </div>
     <div>
-      <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" readonly >
+      <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" >
     </div>
     <div>
-      <input type="email" name="email" value="example@domain.com" required >
+      <input type="email" name="email" placeholder="example@domain.com" required >
     </div>
     <div>
       <input type="file" name="avatar">
@@ -57,13 +59,12 @@
     <div>
       <input type="number" name="favouriteNumber" value="17" >
     </div>
-      <textarea name="story" rows="5" cols="30"
-      placeholder="A long time ago..." > </textarea>
+      <textarea name="story" placeholder="A long time ago..." rows="5" cols="30"> </textarea>
       <div>
         <input type="password" name="password" value="secret" >
       </div>
       <div class="languages">
-        <input type="radio" name="language" value="html" >HTML
+        <input type="radio" name="language" value="html">HTML
         <input type="radio" name="language" value="css" checked>CSS
         <input type="radio" name="language" value="javascript" >JavaScript
       </div>
@@ -86,7 +87,7 @@
         <input type="url" name="website" placeholder="https://website.com" required >
       </div>
       <div>
-        <input type="week" name="bithWeek" value="2021-W51" >
+        <input type="week" name="birthWeek" value="2021-W51" >
       </div>
       <button type="button">Save</button>
   </form>
