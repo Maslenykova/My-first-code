@@ -10,7 +10,7 @@
   
  }
  .login-form{
-  display: block;
+  display: inline-block;
   background-color: aqua;
   font-family: monospace;
   font-size: 16px;
