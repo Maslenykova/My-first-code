@@ -21,12 +21,12 @@
   text-transform: uppercase;
  }
  .form-control{
-  display: inline-block;
+  display: block;
   padding-top: 8px;
   
  }
  .form-label{
-  display: inline-block;
+  display: block;
   padding-bottom: 4px;
  }
  .form-input:invalid {
