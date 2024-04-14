@@ -13,12 +13,15 @@
     *{
       box-sizing: border-box;
     }
-  
-    .bigForm{
-      margin: 32px;
+    table{
+      width: 500px;
+      margin: 16px;
+      border-collapse: collapse;
     }
-    .value{
-      margin: 8px;
+    tr,th,td{
+      border: 1px solid black;
+      padding: 4px;
+      text-align: right;
     }
    
    </style>
@@ -26,76 +29,44 @@
   </head>
 
   <body>
-    <form class="bigForm">
-    <div class="value">
-   <input type="text" name="primaryLanguage" value="HTML" disabled>
+    <div>
+    <table>
+      <caption>Shopping list</caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Milk</td>
+          <td>3</td>
+          <td>$2</td>
+          <td>$6</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>4</td>
+          <td>$1</td>
+          <td>$4</td>
+        </tr>
+        <tr>
+          <td>Meat</td>
+          <td>5</td>
+          <td>$10</td>
+          <td>$50</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Total</td>
+          <td>$60</td>
+        </tr>
+      </tfoot>
+    </table>
   </div>
-  <div class="value">
-      <input type="checkbox" name="agree" unchecked>
-    </div>  
-    <div class="value">
-      <input type="checkbox" name="like" checked readonly>
-    </div>
-    <div class="value">
-      <input type="color" name="favouriteColor" value="#ff7f50">
-    </div>
-    <div class="value">
-      <input type="date" name="birthDate" value="2021-01-02">
-    </div>
-    <div class="value"> 
-      <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
-    </div> 
-    <div class="value">
-      <input type="email" name="email" placeholder="example@domain.com" required>
-    </div>
-    <div class="value">
-      <input type="file" name="avatar">
-    </div>
-    <div class="value">
-      <input type="month" name="startLearning" value="2020-01" >
-    </div>
-    <div class="value">
-      <input type="number" name="favouriteNumber" value="17" >
-    </div>
-    <div class="value">
-      <textarea name="story" placeholder="A long time ago..." rows="5" cols="30"></textarea>
-    </div>
-    <div class="value">
-        <input type="password" name="password" value="secret" >
-    </div>   
-    <div class="value languages">
-      <label>
-        <input  type="radio" name="language" value="html"> HTML</label>
-      <label>  
-        <input type="radio" name="language" value="css" checked> CSS</label>
-      <label>    
-        <input type="radio" name="language" value="javascript"> JavaScript</label>
-    </div>  
-    <div class="value">
-        <input type="range" name="learningProgress" value="30" >
-    </div>
-    <div class="value">
-      <select name="framework" >
-        <option value="react">React</option>
-        <option value="jquery" selected>jQuery</option>
-        <option value="bootstrap">Bootstrap</option>
-      </select>
-    </div>
-    <div class="value">
-        <input type="search" name="search" placeholder="Type first letters..." >
-    </div>  
-    <div class="value">
-        <input type="time" name="lunchEnd" value="14:01" >
-    </div>
-    <div class="value">
-        <input type="url" name="website" placeholder="https://website.com" required >
-    </div>  
-    <div class="value">
-        <input type="week" name="birthWeek" value="2021-W51" >
-    </div>
-    <div class="value">
-      <button type="button">Save</button>
-    </div>
-  </form>
   </body>
 </html>
