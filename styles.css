@@ -20,4 +20,11 @@ tr:nth-child(even) td:nth-child(even){
 tr:nth-child(odd) td:nth-child(odd){
   background-color: white;
 }
-
+tbody > tr:last-child td, tbody > tr:first-child td{
+background-color: white;
+border: none;
+} 
+tr > td:nth-child(1), tr > td:nth-child(10){
+background-color: white;
+border: none;
+}
