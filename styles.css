@@ -13,7 +13,7 @@
   cursor: pointer;
   line-height: 50px;
 }
-.some-button:hover > .icon_bird{
+.icon_bird:hover{
   fill: green;
 }
 .some-button:hover{
