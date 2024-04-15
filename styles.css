@@ -24,7 +24,8 @@ tbody > tr:last-child td, tbody > tr:first-child td{
 background-color: white;
 border: none;
 } 
-tr > td:nth-child(1), tr > td:nth-child(10){
+tr > td:first-child, tr > td:last-child{
 background-color: white;
-border: none;
+border-top:hidden;
+border-bottom: hidden;
 }
