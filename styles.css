@@ -4,11 +4,12 @@
 body{
   display: flex;
   justify-content: space-around;
-}
-div{
-  display: inline-block;
   margin: 0;
   padding: 0;
+}
+div{
+  display: block;
+  margin-top: 0;
 }
 .full-battery{
   font-size: 16px;
