@@ -8,17 +8,22 @@ body{
   justify-content: space-around;
 }
 .full-battery{
+  display: inline-block;
   font-size: 16px;
 }
 .battery{
+  display: inline-block;
   font-size: 32px;
 }
 .battery-half{
+  display: inline-block;
   font-size: 64px;
 }
 .battery-quarter{
+  display: inline-block;
   font-size: 128px;
 }
 .battery-empty{
+  display: inline-block;
   font-size: 256px;
 }
