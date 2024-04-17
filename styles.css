@@ -1,29 +1,23 @@
 *{
   box-sizing: border-box;
 }
-body{
+.icons {
   display: flex;
   justify-content: space-around;
-  align-items: start;
-  margin: 0;
-}
-div{
-  display: inline-block;
-  position: relative;
 }
 
-.full-battery{
+i:nth-child(1) {
   font-size: 16px;
 }
-.battery{
+i:nth-child(2) {
   font-size: 32px;
 }
-.battery-half{
+i:nth-child(3) {
   font-size: 64px;
 }
-.battery-quarter{
+i:nth-child(4) {
   font-size: 128px;
 }
-.battery-empty{
+i:nth-child(5) {
   font-size: 256px;
 }
