@@ -5,6 +5,7 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: start;
+  margin: 0;
 }
 div{
   display: inline-block;
