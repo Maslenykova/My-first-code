@@ -5,11 +5,13 @@
   margin: 32px;
 }
 .rect{
+ display: flex;
  margin-bottom: 16px;
  background-color: coral;
  width: 100px;
  height: 100px;
- text-align: center;
+align-items: center;
+justify-content: center;
  opacity: 0.5;
  transition: width 2s, opacity 0.5s;
 }
