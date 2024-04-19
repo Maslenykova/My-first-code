@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 @keyframes moving {
   from {
     left: 0;
@@ -26,7 +29,6 @@
   position: absolute;
   margin-top: 50vh;
   margin-left: 50vw;
-
 }
 .spinner-text{
   font-family: monospace;
@@ -37,7 +39,7 @@
   animation-delay: inherit;
 }
 .rect{
-  position: relative;
+  position: relative;  
   background-color: black;
   width: 10px;
   height: 2px;
