@@ -21,11 +21,12 @@
 }
 .container{
   display: flex;
-  justify-content: center;
 }
 .spinner{
   position: absolute;
-  margin: 50vh;
+  margin-top: 50vh;
+  margin-left: 50vw;
+
 }
 .spinner-text{
   font-family: monospace;
