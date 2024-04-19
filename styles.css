@@ -40,7 +40,7 @@
   
 }
 .rect{
-  position: relative;  
+  position: absolute;  
   background-color: black;
   width: 10px;
   height: 2px;
