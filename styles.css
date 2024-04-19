@@ -29,14 +29,15 @@
   position: absolute;
   margin-top: 50vh;
   margin-left: 50vw;
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 .spinner-text{
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
+  
 }
 .rect{
   position: relative;  
