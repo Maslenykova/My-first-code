@@ -26,7 +26,6 @@
   display: flex;
 }
 .spinner{
-  position: absolute;
   margin-top: 50vh;
   margin-left: 50vw;
   animation: blinking 2s;
