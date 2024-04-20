@@ -1,17 +1,44 @@
 *{
   box-sizing: border-box;
 }
-
-.square{
-  height: 100px;
-  width: 100px;
-  background-color: tomato;
-  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+body{
+  display: flex;
+  height: 100vh;
 }
-.text{
-  display: inline-block;
-  background-color: blanchedalmond;
-  padding: 8px;
-  margin-left: 32px;
-  border-radius: 4px;
+.fancy-button{
+  margin: auto;
+ width: 150px;
+ height: 50px;
+ border-radius: 4px;
+ border: none;
+ background-image: linear-gradient(45deg, yellow, red);
+color: white;
+text-transform: uppercase;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+animation: gump 0.5s 0.4s ease-in-out, turn 0.5s ease-in-out, bias 1s 2s forwards;
+}
+ @keyframes gump{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform: translateY(-40px);
+  }
+ }
+ @keyframes turn{
+  from{
+    transform: rotate(0)
+  }
+  to{
+    transform: rotate(360deg);
+  }
+ }
+@keyframes bias{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(2000px);
+  }
 }
