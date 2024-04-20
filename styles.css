@@ -5,12 +5,12 @@
 .square{
   height: 100px;
   width: 100px;
-  background-color: #ff6347;
+  background-color: tomato;
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
 .text{
   display: inline-block;
-  background-color: #ffe4c4;
+  background-color: blanchedalmond;
   padding: 8px;
   margin-left: 30px;
 }
