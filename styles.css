@@ -1,9 +1,17 @@
 *{
   box-sizing: border-box;
 }
+body{
+  margin: 20px;
+}
 .square{
   height: 100px;
   width: 100px;
   background-color: #ff6347;
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+}
+p{
+  display:inline-block;
+  background-color: #ffe4c4;
+  padding: 10px;
 }
