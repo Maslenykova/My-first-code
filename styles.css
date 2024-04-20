@@ -3,15 +3,14 @@
 }
 
 .square{
-  display: flex;
   height: 100px;
   width: 100px;
   background-color: #ff6347;
-  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+  transform: translate(180px, 120px) rotate(45deg) scale(1.5);
 }
 p{
   display:inline-block;
   background-color: #ffe4c4;
-  margin-left: 20px;
   padding: 10px;
+  margin-left: 16px;
 }
