@@ -3,11 +3,9 @@
 }
 .container{
   display: flex;
-  width: 100vw;
-  height: 100vh;
 }
 .spinner{
-  position: absolute;
+  position: relative;
   margin-top: 50vh;
   margin-left: 50vw;
 }
