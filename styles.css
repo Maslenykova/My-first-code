@@ -29,9 +29,9 @@
 }
 @keyframes blinking{
   0%{
-    opacity: o;
+    opacity: 0;
   }
-  50${
+  50%{
     opacity: 1;
   }
   100%{
