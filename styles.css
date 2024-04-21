@@ -13,7 +13,7 @@
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
-  animation: blinking 2s infinite ease ;
+  animation: blinking 2s infinite linear;
 }
 .circle{
   position: relative;
