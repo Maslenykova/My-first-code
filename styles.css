@@ -51,14 +51,14 @@ body{
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
-  line-height: 1.75em;
+  
 }
 .section__header{
   font-size: 5vw;
   text-align: center;
 }
 .section li{
-  line-height: 2em;
+  line-height: 1.75em;
 }
 .nav-list-item{
   color: #ffffff;
@@ -67,7 +67,7 @@ body{
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 0.5em;
-
+  line-height: 2em;
 }
 .nav-list-link{
   padding: 0.5em;
