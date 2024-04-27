@@ -24,9 +24,7 @@ body{
 }
 .main{
   display: flex;
-  
   height: 100%;
-  line-height: 1.75em;
 }
 .navigation{
   display: block;
@@ -36,6 +34,7 @@ body{
 .section{
   display:block;
   font-size: 1.25em;
+  line-height: 1.75em;
   padding: 0.5em;
   width: 60%;
 }
