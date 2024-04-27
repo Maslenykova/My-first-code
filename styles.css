@@ -57,14 +57,16 @@ body{
   font-size: 5vw;
   text-align: center;
 }
+.section li{
+  line-height: 2em;
+}
 .nav-list-item{
   color: #ffffff;
- background-color: #808080;
- white-space: nowrap;
+  background-color: #808080;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
- line-height: 2em;
- margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 
 }
 .nav-list-link{
