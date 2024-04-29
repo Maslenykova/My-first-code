@@ -3,11 +3,10 @@
   }
   main {
   display: flex;
-  height: 100vh;
  justify-content: center;
 }
 picture {
-  display: inline-block;
+position: absolute;
 }
 img{
   max-width: 100%;
