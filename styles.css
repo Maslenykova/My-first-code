@@ -1,12 +1,9 @@
 *{
   box-sizing: border-box;
   }
-  main {
-  display: flex;
- justify-content: center;
-}
 picture {
-object-fit: cover;
+  display: flex;
+  justify-content: center;
 }
 img{
   max-width: 100%;
