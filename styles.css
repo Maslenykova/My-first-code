@@ -6,9 +6,7 @@
  justify-content: center;
 }
 picture {
-position: absolute;
-min-width: auto;
-min-height: auto;
+object-fit: cover;
 }
 img{
   max-width: 100%;
