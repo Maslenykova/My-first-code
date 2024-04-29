@@ -7,6 +7,8 @@
 }
 picture {
 position: absolute;
+min-width: auto;
+min-height: auto;
 }
 img{
   max-width: 100%;
