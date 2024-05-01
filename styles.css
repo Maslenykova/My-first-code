@@ -6,8 +6,9 @@
   }
   picture {
     margin: auto;
-    height: auto;
+    
   }
   img{
     max-width: 100%;
+    max-height: 100%;
   }
