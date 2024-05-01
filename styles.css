@@ -4,7 +4,8 @@
 picture {
   display: flex;
   justify-content: center;
-  background-clip: content-box;
+  height: 100vh;
+  width: 100vw;
 }
 img{
   max-width: 100%;
