@@ -79,7 +79,6 @@ body{
   color: #ffffff;
 }
 picture{
-  display: block;
   position: relative;
   margin: auto;
   max-width: 100%;
