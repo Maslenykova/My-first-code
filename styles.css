@@ -22,6 +22,7 @@ body{
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
+  position: relative;
 }
 .main{
   display: flex;
