@@ -99,9 +99,9 @@ body{
   width: 100%;
  }
 } 
-@media screen and (max-width: 1200px){
+@media screen and (min-width: 600px) and (max-width: 1200px){
   .navigation{
-    flex-grow: 1;
+    
     width: 20%;
   }
   .section{
