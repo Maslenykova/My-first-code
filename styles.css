@@ -78,14 +78,7 @@ body{
   text-decoration: none;
   color: #ffffff;
 }
-picture{
-  display: flex;
-  /* position: relative; */
-  margin: auto;
-  max-width: 100%;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  background-size: contain;
-}
+
 .banner {
   max-width: 100%;
   height: auto;
