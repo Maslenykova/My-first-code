@@ -4,8 +4,10 @@
   body{
   display: flex;
   justify-content: center;
+ 
 }
 .banner{
   max-width: 100%;
-  height: auto;
+    height: 100%;
+    object-fit: cover;	
 }
