@@ -14,7 +14,8 @@
     padding: 8px;
     font-weight: 700;
     cursor: pointer;
-    background-color: #ff7f50; }
+    background-color: #ff7f50;
+    margin: 8px; }
     .nav-list__item_selected {
       background-color: #fb0; }
     .nav-list__item:hover {
