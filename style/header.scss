@@ -1,24 +1,24 @@
 @import 'variables.scss';
 .header{
     display: flex;
-    height: $unit;
     background-color: $main-color;
 }
 .menu{
  display: flex;
- margin-left: $unit;
- padding-top: 0;
- padding-bottom: 0;
+ height: $unit;
+ align-items: center;
+ margin-right: $unit;
+ margin-top: 0;
+ margin-bottom: 0;
  text-transform: uppercase;
  color: #fff;
  cursor: pointer;
  position: relative;
 
  &__item {
-    
     list-style-type: none;
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-left: $padding;
+    padding-right: $padding;
      
     &:hover{
         background-color: #9acd32;
@@ -42,7 +42,9 @@
 
     &__item{
         list-style-type: none;
-        padding: 8px;
+        height: $unit;
+        padding-left: $padding;
+        padding-right: $padding;
 
         &:hover{
             color: #000;
