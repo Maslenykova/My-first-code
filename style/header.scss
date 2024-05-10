@@ -6,13 +6,15 @@
 .menu{
  display: flex;
  height: $unit;
- margin-left: $unit;
+ margin-right: $unit;
  margin-top: 0;
  margin-bottom: 0;
+ padding-right: $padding;
  text-transform: uppercase;
  color: #fff;
  cursor: pointer;
  position: relative;
+ 
 
  &__item {
     display: flex;
