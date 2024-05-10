@@ -1,33 +1,54 @@
 @import 'variables.scss';
 .header{
-    background-color: $color-grey;
+    display: flex;
+    height: $unit;
+    background-color: $main-color;
 }
-.nav-list {
+.menu{
+ display: flex;
+ margin-left: $unit;
+ padding-top: 0;
+ padding-bottom: 0;
+ text-transform: uppercase;
+ color: #fff;
+ cursor: pointer;
+ position: relative;
+
+ &__item {
+    
+    list-style-type: none;
+    padding-right: 8px;
+    padding-left: 8px;
+     
+    &:hover{
+        background-color: #9acd32;
+    }
+ }
+   &__item_active{
+    color: #ffff00;
+   
+   }
+}
+.submenu{
+    display: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    height: $unit * 7;
+    background-color: #ff7f50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    min-width: 120px;
+    z-index: 1;
+    position: absolute;
 
-     
     &__item{
-        border-radius: $border-radius;
-        color: $text-color-secondary;
-        padding: $unit;
-        font-weight: 700;
-        cursor: pointer;
-        background-color: $color-secondary;
-        margin-left: $unit;
-         
-        &_selected{
-            background-color: $color-primary;
-        }
-
+        list-style-type: none;
+        padding: 8px;
 
         &:hover{
-            opacity: 0.7;
+            color: #000;
         }
-    }
-
+      }
+}
+.menu__item_active:hover .submenu{
+    display: block;
 }

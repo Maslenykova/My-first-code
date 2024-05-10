@@ -1,25 +1,47 @@
 .header {
-  background-color: #eee; }
+  display: flex;
+  height: 3em;
+  background-color: #006400; }
 
-.nav-list {
+.menu {
+  display: flex;
+  margin-left: 3em;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  position: relative; }
+  .menu__item {
+    list-style-type: none;
+    padding-right: 8px;
+    padding-left: 8px; }
+    .menu__item:hover {
+      background-color: #9acd32; }
+  .menu__item_active {
+    color: #ffff00; }
+
+.submenu {
+  display: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  height: 56px; }
-  .nav-list__item {
-    border-radius: 4px;
-    color: #fff;
-    padding: 8px;
-    font-weight: 700;
-    cursor: pointer;
-    background-color: #ff7f50;
-    margin-left: 8px; }
-    .nav-list__item_selected {
-      background-color: #fb0; }
-    .nav-list__item:hover {
-      opacity: 0.7; }
+  background-color: #ff7f50;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  min-width: 120px;
+  z-index: 1;
+  position: absolute; }
+  .submenu__item {
+    list-style-type: none;
+    padding: 8px; }
+    .submenu__item:hover {
+      color: #000; }
+
+.menu__item_active:hover .submenu {
+  display: block; }
+
+* {
+  box-sizing: border-box; }
 
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
