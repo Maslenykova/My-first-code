@@ -6,7 +6,7 @@
 .menu{
  display: flex;
  height: $unit;
- align-items: center;
+ 
  margin-right: $unit;
  margin-top: 0;
  margin-bottom: 0;
@@ -16,6 +16,8 @@
  position: relative;
 
  &__item {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     padding-left: $padding;
     padding-right: $padding;
@@ -31,6 +33,7 @@
 }
 .submenu{
     display: none;
+    top: 100%;
     margin: 0;
     padding: 0;
     background-color: #ff7f50;
@@ -52,5 +55,5 @@
       }
 }
 .menu__item_active:hover .submenu{
-    display: block;
+   display: block;
 }
