@@ -6,10 +6,10 @@
 .menu{
  display: flex;
  height: $unit;
- margin-right: $unit;
+ margin-left: $unit;
  margin-top: 0;
  margin-bottom: 0;
- padding-right: $padding;
+ padding: $padding;
  text-transform: uppercase;
  color: #fff;
  cursor: pointer;
