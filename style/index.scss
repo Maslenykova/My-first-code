@@ -4,20 +4,15 @@
 }
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 100vh;
 
-    @include for-medium-up{
-        flex-direction: row;
+    @include for-orientation{
+        flex-direction: column; 
     }
-    @include for-larg-up{
-        flex-direction: row;
-    }
-    @include for-big {
-        flex-direction: row;
-    }
+   
 }
 .square{
     width: 100px;
@@ -27,16 +22,14 @@
 
     @include for-medium-up{
         background-color: #8a2be2;
-        flex-direction: row;
     }
 
     @include for-larg-up{
         background-color: #a61;
-        flex-direction: row;
+
     }
 
     @include for-big {
         background-color: #c47;
-        flex-direction: row;
     }
 }
