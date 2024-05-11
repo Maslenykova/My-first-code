@@ -12,10 +12,6 @@
   min-height: 200px;
   display: flex;
   flex: 1; }
-  @media screen and (min-width: 600px) {
-    .prod {
-      display: flex;
-      flex: 2; } }
 
 .new {
   background-color: #0ff;
@@ -30,6 +26,11 @@ span {
   background-color: #faebd7;
   border-radius: 4px;
   margin: auto; }
+
+@media screen and (min-width: 600px) {
+  .product {
+    display: flex;
+    flex: 2; } }
 
 @media screen and (min-width: 900px) {
   .big {

@@ -15,10 +15,7 @@
     min-height: $unit;
     display: flex;
     flex: 1;
-    @include for-small{
-            display:flex;
-            flex:2;
-    }
+  
   }
   .new{
     background-color: $third-color;
@@ -33,6 +30,12 @@
     background-color: $span-color;
     border-radius: $radius;
     margin: auto;
+  }
+  .product{
+    @include for-small{
+        display:flex;
+        flex:2;
+}
   }
   .big {
     @include for-medium{
