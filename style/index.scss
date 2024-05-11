@@ -1,0 +1,42 @@
+@import 'leyout.scss';
+
+*{
+    box-sizing: border-box;
+  }
+  
+  .navi{
+    background-color: $main-color;
+    min-height: $unit;
+    display: flex;
+    flex: 1;
+  }
+  .prod{
+    background-color: $second-color;
+    min-height: $unit;
+    display: flex;
+    flex: 1;
+    @include for-small{
+            display:flex;
+            flex:2;
+    }
+  }
+  .new{
+    background-color: $third-color;
+    min-height: $unit;
+    display: flex;
+    flex: 1;
+  }
+  span{
+    text-transform: lowercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: $padding;
+    background-color: $span-color;
+    border-radius: $radius;
+    margin: auto;
+  }
+  .big {
+    @include for-medium{
+        display: flex;
+    }
+  }
+  
