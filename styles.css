@@ -1,58 +1,38 @@
-.header {
-  display: flex;
-  background-color: #006400;
-  margin: 0;
-  padding: 0; }
-
-.menu {
-  display: flex;
-  height: 3em;
-  margin-left: 3em;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  text-transform: uppercase;
-  color: #fff;
-  cursor: pointer;
-  position: relative; }
-  .menu__item {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    padding-left: 8px;
-    padding-right: 8px; }
-    .menu__item:hover {
-      background-color: #9acd32; }
-  .menu__item_active {
-    color: #ffff00; }
-
-.submenu {
-  display: none;
-  top: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #ff7f50;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  color: #fff;
-  min-width: 120px;
-  z-index: 1;
-  position: absolute; }
-  .submenu__item {
-    list-style-type: none;
-    height: 3em;
-    padding-left: 8px;
-    padding-right: 8px; }
-    .submenu__item:hover {
-      color: #000; }
-
-.menu__item_active:hover .submenu {
-  display: block; }
-
 * {
   box-sizing: border-box; }
 
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px; }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; }
+  @media screen and (min-width: 600px) and (orientation: landscape) {
+    .container {
+      flex-direction: row; } }
+  @media screen and (min-width: 900px) and (orientation: landscape) {
+    .container {
+      flex-direction: row; } }
+  @media screen and (min-width: 1200px) and (orientation: landscape) {
+    .container {
+      flex-direction: row; } }
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ff7f50;
+  margin: 8px; }
+  @media screen and (min-width: 600px) and (orientation: landscape) {
+    .square {
+      background-color: #8a2be2;
+      flex-direction: row; } }
+  @media screen and (min-width: 900px) and (orientation: landscape) {
+    .square {
+      background-color: #a61;
+      flex-direction: row; } }
+  @media screen and (min-width: 1200px) and (orientation: landscape) {
+    .square {
+      background-color: #c47;
+      flex-direction: row; } }
 
 /*# sourceMappingURL=styles.css.map */
